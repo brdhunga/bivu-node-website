@@ -1,0 +1,27 @@
+/* _colors.scss */
+
+$black: #000;
+$blackLight: lighten($black, 10%);
+$blackLighter: lighten($black, 20%);
+
+$gray: #c5c5c5;
+$grayDarker: darken($gray, 20%);
+$grayDark: darken($gray, 10%);
+$grayLight: lighten($gray, 10%);
+$grayLighter: lighten($gray, 20%);
+
+$white: #fff;
+
+$blue: #428bca;
+$green: #5cb85c;
+$red: #d43f3a;
+$yellow: #f0ad4e;
+$cyan: #c64a49;
+
+$primaryColor: #2580a2;
+$backgroundColor: #ecebe8;
+$linkColor: $primaryColor;
+$headerBackgroundColor: $blackLighter;
+$headerColor: $white;
+$headerFontColor: #909090;
+$baseFontColor: #adadad;
